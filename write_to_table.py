@@ -27,7 +27,7 @@ print(warehouse_location_from_table)
 current_folder = os.getcwd()
 
 warehouse_local_location = os.path.join(current_folder, 'iceberg_warehouse')
-full_path_warehouse_local_location= f'file://{warehouse_local_location}'
+full_path_warehouse_local_location = f'file://{warehouse_local_location}'
 
 if not os.path.exists(warehouse_local_location):
     os.makedirs(warehouse_local_location)
